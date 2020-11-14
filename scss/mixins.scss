@@ -1,0 +1,13 @@
+@mixin btn-before-position{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@mixin text-decoration($ff, $fs, $fw, $color){
+    font-family: $ff;
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}
